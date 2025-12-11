@@ -3,11 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_host"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/userPersonalizationFragment">
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="yr.muhammadyaumil.gourmetstar.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/userPersonalizationFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.UserPersonalizationFragment"
+        android:label="fragment_user_personalization"
+        tools:layout="@layout/fragment_user_personalization" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.RegisterFragment"
+        android:label="RegisterFragment" />
 </navigation>
