@@ -51,6 +51,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //splash screen
+    implementation("androidx.core:core-splashscreen:1.2.0")
     //supabase
     implementation(platform("io.github.jan-tennert.supabase:bom:3.0.2"))
     implementation("io.ktor:ktor-client-android:3.0.1")
