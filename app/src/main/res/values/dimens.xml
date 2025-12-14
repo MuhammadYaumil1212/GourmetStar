@@ -7,4 +7,6 @@
     <dimen name="text_input">14sp</dimen>
     <dimen name="text_description">12sp</dimen>
     <dimen name="text_button">10sp</dimen>
+
+    <dimen name="padding">16dp</dimen>
 </resources>
