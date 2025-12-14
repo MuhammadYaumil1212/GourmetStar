@@ -11,5 +11,6 @@
         android:text="@string/personalized_text"
         android:padding="@dimen/padding"
         android:layout_marginTop="@dimen/margin_top_20"
-        style="@style/h1" />
+        style="@style/h1_bold" />
+
 </LinearLayout>
