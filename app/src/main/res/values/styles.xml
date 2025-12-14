@@ -18,6 +18,12 @@
         <item name="android:fontFamily">@font/roboto</item>
     </style>
 
+    <style name="h1">
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
     <style name="primaryButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@null</item>
         <item name="android:background">@drawable/button_shape</item>
