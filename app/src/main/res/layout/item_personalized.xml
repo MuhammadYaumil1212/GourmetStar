@@ -12,6 +12,7 @@
         android:layout_height="@dimen/height_60"
         android:padding="@dimen/padding_18"
         android:scaleType="centerInside"
+        android:layout_marginTop="@dimen/margin_top_20"
         android:background="@drawable/personalized_shape"
         android:contentDescription="@string/personalized_item_image_desc"
         tools:srcCompat="@tools:sample/avatars" />
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top_10"
         android:layout_marginStart="@dimen/padding_18"
+        android:layout_marginBottom="@dimen/margin_top_20"
         android:ellipsize="end"
         android:text="@string/personalized_item"/>
 </LinearLayout>

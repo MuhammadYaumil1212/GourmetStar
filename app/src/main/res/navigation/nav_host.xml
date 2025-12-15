@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="yr.muhammadyaumil.gourmetstar.LoginFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.Login.presentations.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/userPersonalizationFragment"
-        android:name="yr.muhammadyaumil.gourmetstar.UserPersonalizationFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.PersonalizedUser.presentations.UserPersonalizationFragment"
         android:label="fragment_user_personalization"
         tools:layout="@layout/fragment_user_personalization" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="yr.muhammadyaumil.gourmetstar.HomeFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.Home.presentations.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/registerFragment"
-        android:name="yr.muhammadyaumil.gourmetstar.RegisterFragment"
+        android:name="yr.muhammadyaumil.gourmetstar.Register.presentations.RegisterFragment"
         android:label="RegisterFragment" />
 </navigation>
